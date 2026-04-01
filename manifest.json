@@ -1,0 +1,18 @@
+{
+  "name": "LibraryServiceArea",
+  "label": "Library Service Area",
+  "type": "widget",
+  "version": "1.14.0",
+  "exbVersion": "1.14.0",
+  "author": "Qazi Iqbal, Assistant CIO Fulton County GIS",
+  "description": "This is the widget used to search our global database using map service - No PHP",
+  "copyright": "",
+  "dependency": "jimu-arcgis",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "translatedLocales": ["en"],
+  "defaultSize": {
+    "width": 400,
+    "height": 400
+  }
+}

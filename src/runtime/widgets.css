@@ -1,0 +1,302 @@
+/* widgets.css */
+.widget-container {
+  width: 100%;
+  padding: 2px;
+  box-sizing: border-box;
+}
+.widget-title {
+  /* Adjust font size, color, and other properties as needed */
+  font-size: 20px;
+  color: #333;
+  /* ... */
+}
+.widget-title2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.widget-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.widget-input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 10px; /* Adjust the radius as needed */
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.widget-button {
+  padding: 8px 16px;
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.widget-use-map-view {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  height: 100%; /* Full height */
+}
+.widget-button:hover {
+  background-color: #005a9e;
+}
+
+#resultsDiv {
+  flex: 1; /* Takes up remaining space */
+  overflow-y: auto;
+  padding: 2px;
+  border: 1px solid #ffffff;
+  background-color: #f9f9f900;
+  border-radius: 5px;
+}
+input[type="text"] {
+  /* width: 100%; */
+  border-radius: 8px; /* Adjust the value for more or less rounding */
+  padding: 2px; /* Optional: Adds some padding inside the input */
+  border: 1px solid #ccc; /* Optional: Adds a border */
+  outline: none; /* Optional: Removes the outline on focus */
+  /* padding: 20px 10px; */
+  /* line-height: 28px; */
+}
+.child1,
+.child2 {
+  /* width: 50px;
+  height: 30px; */
+  /* Other styles as needed */
+}
+button {
+  border-radius: 8px;
+
+  padding: 8px 12px; /* Optional: Adds padding inside the button */
+  border: none; /* Optional: Removes the border */
+  background-color: #0079c1; /* Optional: Button color */
+  color: white; /* Optional: Text color */
+  cursor: pointer; /* Changes the cursor to a pointer */
+  font-size: 12px; /* Adjust font size as needed */
+  padding: 5px 10px; /* Adjust padding as needed */
+}
+
+button:hover {
+  background-color: #005f91; /* Optional: Change background color on hover */
+}
+.widget-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-text {
+  margin-right: 10px; /* Adjust the spacing as needed */
+  font-weight: bold;
+  font-size: 18px;
+}
+.input-text {
+  flex: 1; /* Takes up available space */
+  padding: 5px;
+  border: 1px solid #ccc;
+  width: 230px;
+}
+.search-form {
+  display: flex;
+}
+.widget-hr {
+  border-color: red; /* Set the border color to red */
+}
+.toggle-icon img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: relative;
+}
+.identify-icon {
+  width: 20px;
+  height: 20px;
+}
+.parent {
+  /* width: 300px; */
+  border: 0px solid black;
+  /* margin: 1rem; */
+  /* padding: 2rem 2rem; */
+  text-align: center;
+  overflow: auto; /* Clearfix for floated children */
+}
+.parent::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.child1 {
+  display: inline-block;
+  border: 0px solid red;
+  /* width: 80%; */
+  float: left; /*Add float left*/
+}
+.child2 {
+  display: inline-block;
+  border: 0px solid red;
+
+  float: right; /*Add float left*/
+}
+.clearDiv {
+  margin-right: 10px; /* Adjust the spacing as needed */
+}
+.my-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.my-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.my-table th,
+.my-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.my-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  color: #333;
+}
+
+.my-table tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.container,
+.column,
+.box {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* display: flex; */
+  width: 100%;
+  border: 0px solid rgb(0, 0, 0);
+}
+
+.column {
+  flex: 1;
+}
+
+.box {
+  border: 0px solid black;
+  margin: 1px;
+}
+
+.header {
+  background-color: rgb(89, 84, 83);
+  color: white;
+  padding: 1px;
+  text-align: center;
+  font-size: 18px; /* Adjust the font size as needed */
+  font-weight: bold; /* Optional: Make the font bold */
+}
+
+.content {
+  padding: 1px;
+}
+.content table {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse; /* Ensures clean borders */
+  width: 100%; /* Makes the table full width */
+}
+
+td {
+  border: 0px solid black; /* Adds a 1px border to all cells */
+  padding: 2px; /* Adds padding to cells */
+  border-bottom: 1px solid gray; /* Add a gray border to the bottom */
+}
+
+.text-left {
+  text-align: left;
+  font-size: 15px; /* Adjust the font size as needed */
+  font-weight: bold; /* Optional: Make the font bold */
+  width: 40%;
+}
+
+
+.text-rightcell  {
+  font-size: 15px; /* Adjust the font size as needed */
+  width: 60%;
+  
+}
+
+/* Styles for the parcel info table */
+.my-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.my-table thead th {
+  background-color: rgb(89, 84, 83);
+  color: white;
+  padding: 5px 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  border-bottom: 2px solid rgb(70, 66, 65);
+}
+
+.my-table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.my-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.my-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.my-table tbody td {
+  padding: 11px 12px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.my-table tbody td:first-child {
+  font-weight: 600;
+  color: #555;
+  width: 40%;
+}
+
+.my-table tbody td:last-child {
+  width: 60%;
+  font-weight: 400;
+}
+
+/* More Info button styling */

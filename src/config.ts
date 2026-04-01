@@ -1,0 +1,21 @@
+import { type ImmutableObject } from "jimu-core";
+
+export interface Config {
+  searchServiceUrl: string;
+  parcelIdentifyUrl: string;
+  libraryServiceAreaUrl: string;
+  commissionerDistrictUrl: string;
+}
+
+export type IMConfig = ImmutableObject<Config>;
+
+export const defaultConfig: Config = {
+  searchServiceUrl:
+    "https://gismaps.fultoncountyga.gov/arcgispub/rest/services/Temp/GlobalSearch_Dialog/MapServer/1",
+  parcelIdentifyUrl:
+    "https://gismaps.fultoncountyga.gov/arcgispub2/rest/services/PropertyMapViewer/ParcelQuery/MapServer/identify",
+  libraryServiceAreaUrl:
+    "https://gismaps.fultoncountyga.gov/arcgispub/rest/services/CountyServices/Library_Service_Area/MapServer/0/query",
+  commissionerDistrictUrl:
+    "https://gismaps.fultoncountyga.gov/arcgispub/rest/services/Elections/VotingDistrictsMapViewer_Public/MapServer/30/query",
+};

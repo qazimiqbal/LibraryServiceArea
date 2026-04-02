@@ -18,7 +18,7 @@ const SearchResults = (props: SearchResultsProps) => {
       )}
       {error && <p>{error}</p>}
 
-      <div id="resultsDiv"></div>
+      <div id="resultsDiv" role="status" aria-live="polite" aria-atomic="true"></div>
     </>
   );
 };
